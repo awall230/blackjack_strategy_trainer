@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB9ED8801B8E9F58009FAE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9ED87F1B8E9F58009FAE61 /* main.m */; };
+		BB9ED8831B8E9F58009FAE61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9ED8821B8E9F58009FAE61 /* AppDelegate.m */; };
+		BB9ED8851B8E9F58009FAE61 /* Blackjack Strategy Trainer-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = BB9ED8841B8E9F58009FAE61 /* Blackjack Strategy Trainer-Prefix.pch */; };
+		BB9ED8871B8E9F58009FAE61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9ED8861B8E9F58009FAE61 /* Images.xcassets */; };
+		BB9ED88A1B8E9F58009FAE61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB9ED8881B8E9F58009FAE61 /* LaunchScreen.xib */; };
+		BB9ED8961B8E9F58009FAE61 /* Blackjack_Strategy_TrainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9ED8951B8E9F58009FAE61 /* Blackjack_Strategy_TrainerTests.m */; };
+		BB9ED8A11B8E9F9B009FAE61 /* ANWBlackjackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9ED8A01B8E9F9B009FAE61 /* ANWBlackjackViewController.m */; };
+		BB9ED8A41B8EA04C009FAE61 /* ANWBlackjackView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9ED8A31B8EA04C009FAE61 /* ANWBlackjackView.m */; };
+		BB9ED8A71B8EA0D5009FAE61 /* ANWCard.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9ED8A61B8EA0D5009FAE61 /* ANWCard.m */; };
+		BB9ED8AA1B8EA0EA009FAE61 /* ANWHand.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9ED8A91B8EA0EA009FAE61 /* ANWHand.m */; };
+		BB9ED8AD1B8EA0F2009FAE61 /* ANWDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9ED8AC1B8EA0F2009FAE61 /* ANWDeck.m */; };
+		BB9ED8B01B90E26A009FAE61 /* ANWGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9ED8AF1B90E26A009FAE61 /* ANWGameManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB9ED8901B8E9F58009FAE61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB9ED8721B8E9F58009FAE61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9ED8791B8E9F58009FAE61;
+			remoteInfo = "Blackjack Strategy Trainer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB9ED87A1B8E9F58009FAE61 /* Blackjack Strategy Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blackjack Strategy Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9ED87E1B8E9F58009FAE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9ED87F1B8E9F58009FAE61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB9ED8811B8E9F58009FAE61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB9ED8821B8E9F58009FAE61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB9ED8841B8E9F58009FAE61 /* Blackjack Strategy Trainer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blackjack Strategy Trainer-Prefix.pch"; sourceTree = "<group>"; };
+		BB9ED8861B8E9F58009FAE61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB9ED8891B8E9F58009FAE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB9ED88F1B8E9F58009FAE61 /* Blackjack Strategy TrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blackjack Strategy TrainerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9ED8941B8E9F58009FAE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9ED8951B8E9F58009FAE61 /* Blackjack_Strategy_TrainerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Blackjack_Strategy_TrainerTests.m; sourceTree = "<group>"; };
+		BB9ED89F1B8E9F9B009FAE61 /* ANWBlackjackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANWBlackjackViewController.h; sourceTree = "<group>"; };
+		BB9ED8A01B8E9F9B009FAE61 /* ANWBlackjackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANWBlackjackViewController.m; sourceTree = "<group>"; };
+		BB9ED8A21B8EA04C009FAE61 /* ANWBlackjackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANWBlackjackView.h; sourceTree = "<group>"; };
+		BB9ED8A31B8EA04C009FAE61 /* ANWBlackjackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANWBlackjackView.m; sourceTree = "<group>"; };
+		BB9ED8A51B8EA0D5009FAE61 /* ANWCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANWCard.h; sourceTree = "<group>"; };
+		BB9ED8A61B8EA0D5009FAE61 /* ANWCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANWCard.m; sourceTree = "<group>"; };
+		BB9ED8A81B8EA0EA009FAE61 /* ANWHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANWHand.h; sourceTree = "<group>"; };
+		BB9ED8A91B8EA0EA009FAE61 /* ANWHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANWHand.m; sourceTree = "<group>"; };
+		BB9ED8AB1B8EA0F2009FAE61 /* ANWDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANWDeck.h; sourceTree = "<group>"; };
+		BB9ED8AC1B8EA0F2009FAE61 /* ANWDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANWDeck.m; sourceTree = "<group>"; };
+		BB9ED8AE1B90E26A009FAE61 /* ANWGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANWGameManager.h; sourceTree = "<group>"; };
+		BB9ED8AF1B90E26A009FAE61 /* ANWGameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANWGameManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB9ED8771B8E9F58009FAE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9ED88C1B8E9F58009FAE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB9ED8711B8E9F58009FAE61 = {
+			isa = PBXGroup;
+			children = (
+				BB9ED87C1B8E9F58009FAE61 /* Blackjack Strategy Trainer */,
+				BB9ED8921B8E9F58009FAE61 /* Blackjack Strategy TrainerTests */,
+				BB9ED87B1B8E9F58009FAE61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB9ED87B1B8E9F58009FAE61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB9ED87A1B8E9F58009FAE61 /* Blackjack Strategy Trainer.app */,
+				BB9ED88F1B8E9F58009FAE61 /* Blackjack Strategy TrainerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB9ED87C1B8E9F58009FAE61 /* Blackjack Strategy Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				BB9ED8811B8E9F58009FAE61 /* AppDelegate.h */,
+				BB9ED8821B8E9F58009FAE61 /* AppDelegate.m */,
+				BB9ED8A21B8EA04C009FAE61 /* ANWBlackjackView.h */,
+				BB9ED8A31B8EA04C009FAE61 /* ANWBlackjackView.m */,
+				BB9ED89F1B8E9F9B009FAE61 /* ANWBlackjackViewController.h */,
+				BB9ED8A01B8E9F9B009FAE61 /* ANWBlackjackViewController.m */,
+				BB9ED8A51B8EA0D5009FAE61 /* ANWCard.h */,
+				BB9ED8A61B8EA0D5009FAE61 /* ANWCard.m */,
+				BB9ED8A81B8EA0EA009FAE61 /* ANWHand.h */,
+				BB9ED8A91B8EA0EA009FAE61 /* ANWHand.m */,
+				BB9ED8AB1B8EA0F2009FAE61 /* ANWDeck.h */,
+				BB9ED8AC1B8EA0F2009FAE61 /* ANWDeck.m */,
+				BB9ED8AE1B90E26A009FAE61 /* ANWGameManager.h */,
+				BB9ED8AF1B90E26A009FAE61 /* ANWGameManager.m */,
+				BB9ED8841B8E9F58009FAE61 /* Blackjack Strategy Trainer-Prefix.pch */,
+				BB9ED8861B8E9F58009FAE61 /* Images.xcassets */,
+				BB9ED8881B8E9F58009FAE61 /* LaunchScreen.xib */,
+				BB9ED87D1B8E9F58009FAE61 /* Supporting Files */,
+			);
+			path = "Blackjack Strategy Trainer";
+			sourceTree = "<group>";
+		};
+		BB9ED87D1B8E9F58009FAE61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB9ED87E1B8E9F58009FAE61 /* Info.plist */,
+				BB9ED87F1B8E9F58009FAE61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB9ED8921B8E9F58009FAE61 /* Blackjack Strategy TrainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9ED8951B8E9F58009FAE61 /* Blackjack_Strategy_TrainerTests.m */,
+				BB9ED8931B8E9F58009FAE61 /* Supporting Files */,
+			);
+			path = "Blackjack Strategy TrainerTests";
+			sourceTree = "<group>";
+		};
+		BB9ED8931B8E9F58009FAE61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB9ED8941B8E9F58009FAE61 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB9ED8791B8E9F58009FAE61 /* Blackjack Strategy Trainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9ED8991B8E9F58009FAE61 /* Build configuration list for PBXNativeTarget "Blackjack Strategy Trainer" */;
+			buildPhases = (
+				BB9ED8761B8E9F58009FAE61 /* Sources */,
+				BB9ED8771B8E9F58009FAE61 /* Frameworks */,
+				BB9ED8781B8E9F58009FAE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blackjack Strategy Trainer";
+			productName = "Blackjack Strategy Trainer";
+			productReference = BB9ED87A1B8E9F58009FAE61 /* Blackjack Strategy Trainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB9ED88E1B8E9F58009FAE61 /* Blackjack Strategy TrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9ED89C1B8E9F58009FAE61 /* Build configuration list for PBXNativeTarget "Blackjack Strategy TrainerTests" */;
+			buildPhases = (
+				BB9ED88B1B8E9F58009FAE61 /* Sources */,
+				BB9ED88C1B8E9F58009FAE61 /* Frameworks */,
+				BB9ED88D1B8E9F58009FAE61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9ED8911B8E9F58009FAE61 /* PBXTargetDependency */,
+			);
+			name = "Blackjack Strategy TrainerTests";
+			productName = "Blackjack Strategy TrainerTests";
+			productReference = BB9ED88F1B8E9F58009FAE61 /* Blackjack Strategy TrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB9ED8721B8E9F58009FAE61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Adam Waller";
+				TargetAttributes = {
+					BB9ED8791B8E9F58009FAE61 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BB9ED88E1B8E9F58009FAE61 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BB9ED8791B8E9F58009FAE61;
+					};
+				};
+			};
+			buildConfigurationList = BB9ED8751B8E9F58009FAE61 /* Build configuration list for PBXProject "Blackjack Strategy Trainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB9ED8711B8E9F58009FAE61;
+			productRefGroup = BB9ED87B1B8E9F58009FAE61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB9ED8791B8E9F58009FAE61 /* Blackjack Strategy Trainer */,
+				BB9ED88E1B8E9F58009FAE61 /* Blackjack Strategy TrainerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB9ED8781B8E9F58009FAE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9ED8851B8E9F58009FAE61 /* Blackjack Strategy Trainer-Prefix.pch in Resources */,
+				BB9ED88A1B8E9F58009FAE61 /* LaunchScreen.xib in Resources */,
+				BB9ED8871B8E9F58009FAE61 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9ED88D1B8E9F58009FAE61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB9ED8761B8E9F58009FAE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9ED8A41B8EA04C009FAE61 /* ANWBlackjackView.m in Sources */,
+				BB9ED8AA1B8EA0EA009FAE61 /* ANWHand.m in Sources */,
+				BB9ED8A11B8E9F9B009FAE61 /* ANWBlackjackViewController.m in Sources */,
+				BB9ED8831B8E9F58009FAE61 /* AppDelegate.m in Sources */,
+				BB9ED8A71B8EA0D5009FAE61 /* ANWCard.m in Sources */,
+				BB9ED8801B8E9F58009FAE61 /* main.m in Sources */,
+				BB9ED8B01B90E26A009FAE61 /* ANWGameManager.m in Sources */,
+				BB9ED8AD1B8EA0F2009FAE61 /* ANWDeck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9ED88B1B8E9F58009FAE61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9ED8961B8E9F58009FAE61 /* Blackjack_Strategy_TrainerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB9ED8911B8E9F58009FAE61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9ED8791B8E9F58009FAE61 /* Blackjack Strategy Trainer */;
+			targetProxy = BB9ED8901B8E9F58009FAE61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB9ED8881B8E9F58009FAE61 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9ED8891B8E9F58009FAE61 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB9ED8971B8E9F58009FAE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB9ED8981B8E9F58009FAE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB9ED89A1B8E9F58009FAE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Blackjack Strategy Trainer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB9ED89B1B8E9F58009FAE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Blackjack Strategy Trainer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BB9ED89D1B8E9F58009FAE61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Blackjack Strategy TrainerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blackjack Strategy Trainer.app/Blackjack Strategy Trainer";
+			};
+			name = Debug;
+		};
+		BB9ED89E1B8E9F58009FAE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Blackjack Strategy TrainerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blackjack Strategy Trainer.app/Blackjack Strategy Trainer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB9ED8751B8E9F58009FAE61 /* Build configuration list for PBXProject "Blackjack Strategy Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9ED8971B8E9F58009FAE61 /* Debug */,
+				BB9ED8981B8E9F58009FAE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9ED8991B8E9F58009FAE61 /* Build configuration list for PBXNativeTarget "Blackjack Strategy Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9ED89A1B8E9F58009FAE61 /* Debug */,
+				BB9ED89B1B8E9F58009FAE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB9ED89C1B8E9F58009FAE61 /* Build configuration list for PBXNativeTarget "Blackjack Strategy TrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9ED89D1B8E9F58009FAE61 /* Debug */,
+				BB9ED89E1B8E9F58009FAE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB9ED8721B8E9F58009FAE61 /* Project object */;
+}
